@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb533897-7f18-4b2a-8926-bdb3a3d9722b" name="Changes" comment="" />
+    <list default="true" id="fb533897-7f18-4b2a-8926-bdb3a3d9722b" name="Changes" comment="commit inicial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/LocalSearchContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/LocalSearchContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hse/ls/common/entity/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hse/ls/guided/GuidedLocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hse/ls/guided/GuidedLocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hse/ls/iterated/IteratedLocalSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hse/ls/iterated/IteratedLocalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hse/ls/guided/GuidedLSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hse/ls/guided/GuidedLSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hse/ls/iterated/IteratedLSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hse/ls/iterated/IteratedLSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hse/ls/common/entity/LocalSearchContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hse/ls/common/entity/LocalSearchContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hse/ls/common/entity/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hse/ls/common/entity/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hse/ls/guided/GuidedLocalSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hse/ls/guided/GuidedLocalSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hse/ls/iterated/IteratedLocalSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hse/ls/iterated/IteratedLocalSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hse/ls/guided/GuidedLSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hse/ls/guided/GuidedLSTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hse/ls/iterated/IteratedLSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hse/ls/iterated/IteratedLSTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +37,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GuidedLSTest.testDataSetPequeno">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hse.ls.App" />
       <module name="local-search" />
@@ -37,8 +53,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuidedLSTest.testDataSetPequeno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="local-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hse.ls.guided.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hse.ls.guided" />
+      <option name="MAIN_CLASS_NAME" value="com.hse.ls.guided.GuidedLSTest" />
+      <option name="METHOD_NAME" value="testDataSetPequeno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuidedLSTest.testOnSmallDataSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="local-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hse.ls.guided.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hse.ls.guided" />
+      <option name="MAIN_CLASS_NAME" value="com.hse.ls.guided.GuidedLSTest" />
+      <option name="METHOD_NAME" value="testOnSmallDataSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratedLSTest.testOnSmallDataSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="local-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hse.ls.iterated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hse.ls.iterated" />
+      <option name="MAIN_CLASS_NAME" value="com.hse.ls.iterated.IteratedLSTest" />
+      <option name="METHOD_NAME" value="testOnSmallDataSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuidedLSTest.testDataSetPequeno" />
+        <item itemvalue="JUnit.GuidedLSTest.testOnSmallDataSet" />
+        <item itemvalue="JUnit.IteratedLSTest.testOnSmallDataSet" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -52,10 +119,34 @@
       <option name="presentableId" value="Default" />
       <updated>1641614007836</updated>
       <workItem from="1641614010964" duration="4000" />
+      <workItem from="1641614143011" duration="9055000" />
     </task>
+    <task id="LOCAL-00001" summary="commit inicial">
+      <created>1641614244891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641614244891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
   </component>
 </project>

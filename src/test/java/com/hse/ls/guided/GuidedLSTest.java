@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
 
 public class GuidedLSTest extends TestUtils {
     @Test
-    public void testOnSmallDataSet() {
+    public void testDataSetPequeno() {
         Problem p = new Problem(3,
                 new int[][]{{1,2,3}, {4,5,6}, {7,8,9}},
                 new int[][]{{10, 11, 12}, {13,14,15}, {16,17,18}});
@@ -28,7 +28,7 @@ public class GuidedLSTest extends TestUtils {
         Assert.assertEquals(set.size(), s.locations.length);
 
         System.out.println(s.toString());
-        System.out.println("Cost: " + s.cost);
+        System.out.println("Custo: " + s.cost);
     }
 
     @Test

@@ -5,11 +5,11 @@ package com.hse.ls.common.entity;
  */
 public class Problem {
 
-    public final int dim;
+    public final int dim; // dimensão
 
-    public final int[][] distance;
+    public final int[][] distance; // distancia
 
-    public final int[][] flow;
+    public final int[][] flow; // fluxo
 
     public Problem(int dim, int[][] distance, int[][] flow) {
         this.dim = dim;
